@@ -16,5 +16,20 @@ namespace ensyu0426
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            button1.Visible = false;
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            button2.Cursor = NodeLabelEditEventArgs;
+        }
     }
 }
